@@ -1,0 +1,25 @@
+// Java code to find time taken by animals
+// to meet
+import java.io.*;
+ 
+public class GFG {
+ 
+    // function to calculate time to meet
+    static void timeToMeet(double s, double v){
+     
+        double V = 3 * v / 2;
+             
+        double time = s / V;
+         
+        System.out.println((float)time);
+    }
+     
+    // Driver Code
+    static public void main (String[] args)
+    {
+         
+        double s = 25, v = 56;
+     
+        timeToMeet(s, v);
+    }
+}
